@@ -1,4 +1,4 @@
-var trailerDB = new Firebase("https://netflix-trailers.firebaseio.com/trailers");
+var trailerDB = new Firebase("https://netflix-trailers.firebaseio.com/trailers2");
 
 $(document).ready(function() {
     trailerDB.on("child_added", function(snapshot) {
